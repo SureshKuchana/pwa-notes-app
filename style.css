@@ -1,0 +1,32 @@
+* {
+  --color-light: #ffffff;
+  --color-dark: #000000;
+  --color-text: rgb(67, 66, 66);
+}
+
+body {
+  font-family: "Google Sans", arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: large;
+  text-align: center;
+  padding: 16px;
+  margin: 0;
+  background: lavender;
+}
+
+textarea {
+  display: block;
+  width: 90%;
+  height: 60px;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+div.btnCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
